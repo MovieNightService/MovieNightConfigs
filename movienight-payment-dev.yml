@@ -4,8 +4,9 @@ server:
 spring:
   application:
     name: movienight-payment
-  datasource:
-    driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/movie_night
-    username: postgres
-    password: root
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: movienight-payment
+      auto-index-creation: false
