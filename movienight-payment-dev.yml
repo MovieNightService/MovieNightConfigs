@@ -8,5 +8,6 @@ spring:
     mongodb:
       host: localhost
       port: 27017
-      database: movienight-payment
+      database: jnjnjnjn
       auto-index-creation: false
+      uri: mongodb://localhost:27017
